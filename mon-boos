@@ -1,0 +1,5 @@
+for i in {1..100}; do
+  echo "Commit numéro $i" >> README.md
+  git add README.md
+  git commit -m "Correction technique #$i"
+done
